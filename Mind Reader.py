@@ -30,6 +30,7 @@
 
 # GUI Based
 import tkinter as tk
+from tinker import *
 from tkinter import messagebox
 import random
 
