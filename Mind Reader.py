@@ -64,7 +64,7 @@ def next_step():
 def reveal_answer():
     answer = random_number / 2  # This will always be 0 (since random_number is even)
     messagebox.showinfo("Magician", f"Your answer is {answer}!")
-    magician_label.config(text="Magician: Want to play again? Click 'Start'!")
+    magician_label.config(text="Magician: Play Again? Click 'Start'!")
 
 # Create the main window
 root = tk.Tk()
